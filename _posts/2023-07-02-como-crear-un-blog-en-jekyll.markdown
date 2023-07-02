@@ -3,6 +3,7 @@ layout: post
 title:  "Como crear un blog en Jekyll"
 date:   2023-07-02 13:02:47 -0500
 categories: jekyll update
+comments: true
 ---
 Debemos asegurarnos de tener instalado ```Ruby``` en nuestra maquina ya que usaremos ```Jekyll``` el cual usa ruby.
 
