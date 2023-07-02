@@ -1,10 +1,14 @@
 ---
+title: Como agregar disqus a Jekyll
 layout: post
-title:  "Como agregar disqus a Jekyll"
-date:   2023-07-02 13:48:47 -0500
-categories: ruby jekyll disqus
+date: '2023-07-02 13:48:47 -0500'
+categories:
+- ruby
+- jekyll
+- disqus
 comments: true
 ---
+
 # Nota:
 ## es necesario tener el sitio online para poder seguir estos pasos.
 
