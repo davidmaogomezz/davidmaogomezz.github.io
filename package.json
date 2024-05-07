@@ -2,14 +2,17 @@
   "name": "tailwind-nextjs-starter-blog",
   "version": "2.2.0",
   "private": true,
+  "homepage": "https://davidmaogomezz.github.io/",
   "scripts": {
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
-    "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "yarn build && gh-pages -d out"
   },
   "dependencies": {
     "@headlessui/react": "1.7.19",
@@ -54,6 +57,7 @@
     "eslint-config-next": "14.2.3",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "gh-pages": "^6.1.1",
     "husky": "^9.0.0",
     "lint-staged": "^13.0.0",
     "prettier": "^3.0.0",
